@@ -1,0 +1,12 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Set width to 100% for the body to ensure it occupies the full viewport width */
+body {
+  width: 100%;
+  font-family: Arial, sans-serif; /* Optional: Set a default font family */
+}

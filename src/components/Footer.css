@@ -1,0 +1,160 @@
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* First Section (Footer Info) */
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: #FAF3EA; 
+    flex-wrap: nowrap; 
+    align-items: center;
+}
+
+.info-item {
+    text-align: left; 
+    flex: 1;
+    max-width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.info-item img {
+    width: 52px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Second Section (Footer Main) */
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white; 
+    padding: 30px 0; 
+}
+
+.footer-company {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-company h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-company p {
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-links,
+.footer-help {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-links ul,
+.footer-help ul {
+    padding: 0;
+}
+
+.footer-links li,
+.footer-help li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+.footer-links li:hover,
+.footer-help li:hover {
+    color: #f39c12;
+}
+
+.footer-newsletter {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-newsletter input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer-newsletter button {
+    padding: 10px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-newsletter button:hover {
+    background-color: #e67e22;
+}
+.ok{
+  color: gray;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 20px;
+    }
+
+    .footer-info {
+        flex-direction: column; 
+        align-items: center;
+        margin-bottom: 20px; 
+    }
+
+
+    .info-item {
+        max-width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-company,
+    .footer-links,
+    .footer-help,
+    .footer-newsletter {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-newsletter input {
+        width: 90%; 
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer-newsletter button {
+        width: 90%; 
+    }
+}

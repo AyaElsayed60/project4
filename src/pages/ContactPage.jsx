@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './ContactPage.css';
 import Banner from '../assets/images/banner.png';
 
+
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',

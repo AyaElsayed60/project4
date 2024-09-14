@@ -6,8 +6,9 @@ import HomePage from './pages/HomePage';
 import ShopPage from './pages/ShopPage';
 import ProductDetail from './components/ProductDetail';
 import ContactPage from './pages/ContactPage';
-import CartPage from './pages/CartPage'; // استيراد صفحة العربة
+import CartPage from './pages/CartPage'; 
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/shop/:category?" element={<ShopPage />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/cart" element={<CartPage />} /> {/* إضافة المسار إلى صفحة العربة */}
+          <Route path="/cart" element={<CartPage />} /> 
         </Routes>
         <Footer />
       </div>

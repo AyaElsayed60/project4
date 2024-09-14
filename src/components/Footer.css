@@ -12,7 +12,11 @@ footer {
     flex-wrap: nowrap; 
     align-items: center;
 }
-
+.prod{
+    padding-left: 100px;
+    color: black;
+    height: 24px;
+}
 .info-item {
     text-align: left; 
     flex: 1;

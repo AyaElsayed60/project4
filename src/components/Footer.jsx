@@ -51,6 +51,7 @@ const Footer = () => {
           <br /><br /><button>SUBSCRIBE</button>
         </div>
       </section>
+      <p className='prod'>2023 furino. All rights reverved</p><br />
     </footer>
   );
 };
